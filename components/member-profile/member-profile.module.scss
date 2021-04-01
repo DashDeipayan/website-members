@@ -106,10 +106,36 @@
   font-size: 16px;
 }
 
+
+.getIntroButton {
+  font-size: 1.2rem;
+  padding: 8px 30px;
+  background-color: rgb(238, 26, 117);
+  color: #fff;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: rgb(238, 26, 117);
+}
+
+.getIntroButton:hover {
+  background-color: #fff;
+  color: rgb(238, 26, 117);
+  border-radius: 8px;
+  border: 1px solid rgb(238, 26, 117);
+}
+
+.modalCloseOff{
+  position: fixed;
+}
+
 .workDetails {
   margin-top: 5px;
   color: #0e141e;
   font-size: 18px;
+}
+
+.modalWindow{
+  width: 500px;
 }
 
 .iconsContainer {
